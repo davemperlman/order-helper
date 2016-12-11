@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+  max-width: 80rem;
+  background-color: #ccc;
+  margin: 0 auto; }
+
+#filler {
+  height: 5rem;
+  background-color: #333; }
+
+form {
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  height: 20rem;
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  display: block; }
+  form input, form select {
+    margin: 10px auto;
+    width: 200px;
+    display: block; }
+  form select {
+    height: 2rem;
+    background: url("../img/arrow-down.png") no-repeat right;
+    background-color: #fff;
+    background-size: 1.6rem;
+    cursor: pointer; }
+  form label {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: -45px;
+    font-size: .8rem; }
+  form button {
+    height: 1.6rem;
+    margin: 30px auto;
+    display: block;
+    border-radius: .5rem;
+    border: none;
+    background: linear-gradient(to top, #494, #6b6);
+    color: #fafafa;
+    font-size: 1rem;
+    width: 175px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 1px 2px 5px 0px #000; }
+    form button:hover span {
+      padding-right: 25px; }
+      form button:hover span:after {
+        opacity: 1;
+        right: 0; }
+    form button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: .5s; }
+    form button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: .5s; }
+
+h2 {
+  text-align: center;
+  margin: 30px; }
+
+table {
+  width: 300px;
+  margin: 0 auto; }
+  table td {
+    text-align: center; }
+  table #average, table #pre-average {
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000; }
+  table #average {
+    background-color: #5f5; }
+
+aside {
+  float: left;
+  width: 30%;
+  background-color: #aaa; }
+
+#info {
+  float: right;
+  width: 70%;
+  background-color: #fafafa;
+  max-height: 45rem; }
+
+/*# sourceMappingURL=style.css.map */

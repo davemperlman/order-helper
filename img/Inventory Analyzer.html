@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://localhost/projects/inventory-ordering/?day=4&category=1&submit= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="./Inventory Analyzer_files/style.css">
+		<title>Inventory Analyzer</title>
+	</head>
+	<body>
+	<div id="filler">
+		
+	</div>
+		<aside>			
+			<form action="http://localhost/projects/inventory-ordering/?day=4&amp;category=1&amp;submit=" method="get">
+				<label for="day">Day</label>
+				<select name="day" id="day" required="">
+
+											<option value="0">Sunday</option>
+											<option value="1">Monday</option>
+											<option value="2">Tuesday</option>
+											<option value="3">Wednesday</option>
+											<option value="4" selected="">Thursday</option>
+											<option value="5">Friday</option>
+											<option value="6">Saturday</option>
+					
+				</select>
+				<label for="category">Category</label>
+				<select name="category" id="category" required="">
+
+											<option value="1">Potatoes</option>
+											<option value="2" selected="">Chicken</option>
+											<option value="3">Bread</option>
+					
+				</select>
+				<button type="submit" name="submit"><span>Submit</span></button>
+			</form>
+		</aside>
+		<section id="info">
+			<h2>French Fries</h2><table><tbody><tr><th>Date</th><th>Quantity</th><th>Price</th></tr><tr><td>2016-09-01</td><td>20</td><td>1.99</td></tr><tr><td>2016-09-29</td><td>15</td><td>1.99</td></tr><tr><td>2016-10-13</td><td>10</td><td>1.99</td></tr><tr><td id="pre-average">Average:</td><td id="average">15</td><td id="average">1.99</td></tr></tbody></table><h2>Chips</h2><table><tbody><tr><th>Date</th><th>Quantity</th><th>Price</th></tr><tr><td>2016-09-01</td><td>14</td><td>2.74</td></tr><tr><td>2016-09-15</td><td>14</td><td>2.74</td></tr><tr><td>2016-10-13</td><td>34</td><td>2.74</td></tr><tr><td id="pre-average">Average:</td><td id="average">20.666666666667</td><td id="average">2.74</td></tr></tbody></table><h2>Wedges</h2><table><tbody><tr><th>Date</th><th>Quantity</th><th>Price</th></tr><tr><td>2016-09-01</td><td>30</td><td>2.16</td></tr><tr><td>2016-09-08</td><td>12</td><td>2.16</td></tr><tr><td>2016-09-22</td><td>12</td><td>2.16</td></tr><tr><td id="pre-average">Average:</td><td id="average">18</td><td id="average">2.16</td></tr></tbody></table> <!-- Display relevant, parsed data: class.order.php line 45 -->
+		</section>
+	
+
+</body></html>
